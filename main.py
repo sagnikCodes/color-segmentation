@@ -74,7 +74,7 @@ try:
         fig.update_layout(
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
-            height=125,
+            height=126,
             margin=dict(t=0, b=0, l=0, r=0),
             bargap=0  # Set the gap between bars to 0
         )
@@ -83,4 +83,4 @@ try:
         st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
 
 except:
-    st.header("Kindly Upload a valid .png/.jpeg file!")
+    st.write("Kindly Upload a valid .png/.jpeg file!")
