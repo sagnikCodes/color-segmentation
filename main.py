@@ -83,4 +83,4 @@ try:
         st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
 
 except:
-    st.write("Kindly Upload a valid .png/.jpeg file!")
+    st.header("Kindly Upload a valid .png/.jpeg file!")
